@@ -1,0 +1,10 @@
+a) SELECT StudentID, Name, Email FROM STUDENTS WHERE City = 'Chandigarh' AND Sport = 'TT';
+
+
+b) SELECT Sport, COUNT(*) AS StudentCount FROM STUDENTS GROUP BY Sport;
+
+
+c) SELECT DISTINCT City FROM STUDENTS;
+
+
+d) SELECT * FROM STUDENTS WHERE YEAR(DOB) = 2005;
